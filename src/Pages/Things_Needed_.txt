@@ -1,0 +1,19 @@
+now a array has to be created that holds all the note that is written in the textArea of the CreateBlog Page and then that e.target.value is added
+to the existing array >> 
+that array is a state which is in the Context and then its called in the CreateBlog page to update the array and then called in the 
+Home Page so that all the array elements are shown in form of Cards >>>
+
+so make another Context folder and then have BlogContext.js and BlogContextProvider.jsx that provides the Context>>
+
+
+if the textArea is emoty after an addition and the user clicks the add button then an alert comes that the textArea is empty>>
+
+  *** Obviously first understand that how that worked 
+1/ make the delte button function and the css needs to be shorted .. 
+
+... delete Note [done]..
+...  so first clicking to the edit on the card take me to the editBlog where i fix the text and then again click the add that gets again added
+     to the home page but in the same exact index .. that's the catch >>
+
+     1. index has to be taken care 
+     2. the existing text has to be there in the editBlog>>
